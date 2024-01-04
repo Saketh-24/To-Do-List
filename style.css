@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200&family=Sora:wght@600&display=swap');
+ 
+ 
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+.name
+{
+    font-size: xx-large;
+    font-weight: 900;
+    width:max-content ;
+    margin-top: 35px;
+}
+
+body
+{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+    background-color: rgb(118, 74, 188,0.7);
+}
+
+#horns
+{
+    cursor: pointer;
+    width: 20PX;
+    height: 17px;
+}
+.container
+{
+    margin: 5px;
+    width: 468px;
+    background-color: white;
+    padding: 15PX;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+    -webkit-box-shadow: 0px 2px 5px 6px rgb(118, 74, 188,0.95);
+    -moz-box-shadow: 0px 2px 5px 6px rgb(118, 74, 188,0.95);
+    box-shadow: 0px 2px 5px 6px rgb(118, 74, 188,0.95);
+}
+
+.main{
+    display: flex;
+    gap: 10;
+    width: max-content;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+input
+{
+    background-color: antiquewhite;
+    height: 30px;
+    padding: 2px;
+    border: 1px solid transparent;
+    opacity: 0.7;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+
+.Add{
+    border: 2px solid transparent;
+    width: 50px;
+    border: none;
+    background-color:hsl(64, 100%, 52%) ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+input:hover
+{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.Add:hover
+{
+    border: 1px solid black;
+}
+
+
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: red;
+    width: max-content;
+    color: white;
+    font-size: small;
+    font-weight: 700;
+    padding: 4px;
+    height: 25px;
+    left: 400px;
+    top: calc(50% - 15px);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    width: 350px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.container div
+{
+    position: relative;
+    width: 380px;
+    display: inline-block;
+    padding: 5px;
+    padding-top: 10px;
+    margin: 5px;
+    border-radius: 10px;
+} 
